@@ -1,0 +1,479 @@
+/* global declaration starts here */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+/* header starts here */
+header {
+    background-color: #ee2e24;
+}
+
+.news-title {
+    width: 15%;
+    padding: 10px 0;
+}
+
+.news-details {
+    width: 85%;
+    padding: 10px 0;
+}
+
+.news-title p {
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+}
+
+marquee {
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* header ends here */
+
+
+
+/* navbar starts here */
+
+nav .container .row .logo img {
+    width: 100%;
+    padding: 10px 0;
+}
+
+nav .container .row .navmenu {
+    margin-left: auto;
+}
+
+nav .container .row .navmenu ul li {
+    margin-left: 45px;
+}
+
+nav .container .row .navmenu ul li a {
+    color: #444;
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    transition: 0.6s;
+}
+
+nav {
+    box-shadow: 0px 10px 16px 0px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+}
+
+nav .container .row .navmenu ul li a:hover {
+    color: #ee2e24;
+}
+/* navbar ends here */
+
+
+
+
+/* banner part goes here */
+#banner img {
+    width: 100%;
+    border-bottom: 1px solid rgba(20, 201, 251, 0.16);
+}
+
+/* banner part ends here */
+
+
+
+/* About part goes here */
+.About-img img {
+    width: 100%;
+}
+
+.About-img {
+    width: 40%;
+}
+
+.About-text {
+    width: 55%;
+}
+
+#About {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.About-text h2 {
+    font-family: 'Arimo', sans-serif;
+    color: #5b6b80;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.About-text p {
+    font-family: 'Arimo', sans-serif;
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    padding-top: 13px;
+}
+
+.About-text p span {
+    padding-top: 7px;
+    display: inline-block;
+}
+
+/* About part ends here */
+
+
+
+
+
+
+/* seminar table starts here  */
+#seminar {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+.card-header p {
+    font-family: 'Arimo', sans-serif;
+    color: #444;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card-header {
+    background-color: #dddddda3;
+    width: 100%;
+    padding: 15px 0;
+}
+/* card header ends here */
+
+
+
+/* card body starts here */
+.card-body {
+    background-color: #fff;
+    width: 100%;
+    padding: 50px 30px;
+}
+
+.card-body table {
+    width: 100%;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    color: #222;
+    font-size: 16px;
+    
+}
+
+.card-body table, td, th {
+    padding: 20px 0;
+    border: 1px solid rgba(206, 206, 206, 0.872);
+    border-collapse: collapse;
+}
+
+
+.card-body table thead tr th {
+    color: #fff;
+    border-right: 1px solid #fff;
+    background-color: #49596d;
+    font-weight: 700;
+}
+
+.card-body table thead tr th:nth-child(1) {
+    width: 39%;
+}
+
+.card-body table thead tr th:nth-child(2) {
+    width: 31%;
+}
+
+.card-body table thead tr th:nth-child(3) {
+    width: 15%;
+}
+
+.card-body table thead tr th:nth-child(4) {
+    width: 18%;
+}
+
+.card-body table thead tr {
+    border: 1.5px solid #36414f;
+    border-right: 0;
+}
+.card-body table tbody tr:nth-child(odd) {
+    background-color: rgba(0,0,0,.05);
+}
+
+.card-body table tbody tr td a {
+    font-family: 'Arimo', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #49596d;
+    transition: 0.2s;
+    padding: 10px 40px;
+}
+
+.card-body table tbody tr td a:hover {
+    background-color: #e52c23;
+}
+/* card body ends here */
+/* seminar table ends here */
+
+
+/* courses part starts here */
+/* course body starts here */
+.courses-body {
+    justify-content: space-between;
+}
+
+.course-content {
+    width: 49%;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-right: none;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+
+.course-item {
+    width: 60%;
+    font-family: 'Arimo', sans-serif;
+}
+
+.course-item h3 {
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #212529;
+}
+
+.course-item p {
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.course-item a {
+    background: #49596d;
+    padding-left: 30px;
+    line-height: 46px;
+    margin-top: 28px;
+    border-radius: 0px 46px 46px 0px;
+    width: 170px;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+}
+
+.course-item a:hover {
+    background-color: #e52c23;
+    color: #fff;
+}
+
+/* course body ends here */
+/* course header starts here */
+.courses-head h2 {
+    font-family: 'Arimo', sans-serif;
+    color: #5b6b80;
+    font-size: 32px;
+    font-weight: 600;
+    display: inline-block;
+    padding-bottom: 15px;
+    padding-top: 60px;
+}
+
+.courses-head p {
+    font-family: 'Arimo', sans-serif;
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+/* course header ends here */
+/* courses part ends here */
+
+
+/* gallery part starts here */
+.gallery_img img {
+    width: 100%;
+}
+
+.gallery_img {
+    width: 32%;
+    padding-bottom: 2%;
+}
+
+.gallery-body {
+    justify-content: space-between;
+}
+/* gallery part ends here */
+
+/* contact part start here */
+#contact {
+    margin-bottom: 60px;
+}
+
+.input-field {
+    width: 49%;
+}
+
+.form-control {
+    width: 100%;
+    height: 40px;
+    text-indent: 20px;
+    margin-bottom: 25px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    color: #212529;
+    outline: 0;
+    border: 1px solid rgba(168, 168, 168, 0.344);
+    border-radius: 4px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.input-field-textarea {
+    width: 100%;
+}
+
+.input-field-textarea textarea {
+    height: 100px;
+    resize: none;
+    padding-top: 10px;
+}
+
+.form-btn {
+    background-color: #49596d;
+    border: 0;
+    padding: 13px 43px;
+    font-size: 18px;
+    color: #fff;
+    border: 0;
+    font-family: 'Arimo', sans-serif;
+    border-radius: 40px;
+}
+
+.form-btn:hover {
+    background-color: #e52c23;
+}
+
+.input-field-btn {
+    margin: auto;
+}
+
+/* contact part ends here */
+
+
+/* footer part starts here */
+
+footer {
+    background: #f5f5f5;
+    padding: 60px 0;
+    font-family: 'Arimo', sans-serif;
+}
+
+/* footer logo starts here */
+.footer-logo h4 {
+    color: #2c2c2c;
+    font-size: 16px;
+    padding-top: 20px;
+    width: 70%;
+}
+
+/* footer address starts here */
+.footer-address {
+    width: 30%;
+}
+
+.footer-address h3 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #49596d;
+    padding-bottom: 30px;
+}
+
+.footer-address p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #222;
+}
+
+/* footer contact starts here */
+
+
+.footer-contact h3 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #49596d;
+    padding-bottom: 30px;
+}
+
+.footer-contact h5 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #303b48;
+    padding-bottom: 10px;
+}
+
+.footer-contact p {
+    color: #222;
+    font-size: 16px;
+    line-height: 30px;
+}
+/* footer contact ends here */
+
+
+/* footer bottom part starts here */
+.footer-btm p {
+    line-height: 60px;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+/* footer ends here */
