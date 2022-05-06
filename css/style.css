@@ -421,6 +421,7 @@ footer {
 .footer-logo h4 {
     color: #2c2c2c;
     font-size: 16px;
+    font-weight: 400;
     padding-top: 20px;
     width: 70%;
 }
